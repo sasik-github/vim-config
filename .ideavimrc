@@ -1,0 +1,22 @@
+set ideajoin
+
+" copy to system buffer
+set clipboard+=unnamed
+
+set relativenumber
+set number
+
+" search
+set ignorecase
+set incsearch
+
+set scrolloff=8
+
+
+" copy till the end line
+nnoremap Y y$
+
+" keeping it centered
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap J mzJ`z
